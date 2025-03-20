@@ -45,10 +45,11 @@ Tried to predict the creditworthiness of borrowers by looking at default rates.
     Summarized model performance and provided a recommendation for its use in loan risk assessment.
 
 ## Methods Used
-    Logistic Regression (LogisticRegression from sklearn): Chosen for its effectiveness in binary classification problems like predicting loan defaults.
-    Train-Test Split (train_test_split from sklearn): Used to divide the dataset into training and testing sets to evaluate model performance.
-    Confusion Matrix (confusion_matrix from sklearn): Applied to assess the true positives, true negatives, false positives, and false negatives.
-    Classification Report (classification_report from sklearn): Provided detailed precision, recall, and F1-score metrics to evaluate model effectiveness.
+
+Logistic Regression (LogisticRegression from sklearn): Chosen for its effectiveness in binary classification problems like predicting loan defaults.
+Train-Test Split (train_test_split from sklearn): Used to divide the dataset into training and testing sets to evaluate model performance.
+Confusion Matrix (confusion_matrix from sklearn): Applied to assess the true positives, true negatives, false positives, and false negatives.
+Classification Report (classification_report from sklearn): Provided detailed precision, recall, and F1-score metrics to evaluate model effectiveness.
 
 ## Results
 
