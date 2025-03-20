@@ -6,13 +6,13 @@ This analysis aims to predict whether a loan applicant will default on their loa
 
 The dataset includes the following financial attributes:
 
-Loan Size: The amount borrowed by the customer.
-Interest Rate: The percentage of interest applied to the loan.
-Borrower Income: The total annual income of the borrower.
-Debt-to-Income Ratio: The proportion of the borrower's debt relative to their income.
-Number of Accounts: The total number of financial accounts the borrower holds.
-Derogatory Marks: Any negative credit events associated with the borrower.
-Total Debt: The total amount of outstanding debt.
+* Loan Size: The amount borrowed by the customer.
+* Interest Rate: The percentage of interest applied to the loan.
+* Borrower Income: The total annual income of the borrower.
+* Debt-to-Income Ratio: The proportion of the borrower's debt relative to their income.
+* Number of Accounts: The total number of financial accounts the borrower holds.
+* Derogatory Marks: Any negative credit events associated with the borrower.
+* Total Debt: The total amount of outstanding debt.
 
 The objective of this analysis was to predict loan status, specifically whether a borrower is likely to default (1) or not default (0) on their loan.
 
@@ -25,7 +25,7 @@ Tried to predict the creditworthiness of borrowers by looking at default rates.
     Imported the dataset from a CSV file.
     Reviewed the dataset’s structure and identified key financial variables.
 
-*Data Preprocessing
+* Data Preprocessing
     Separated the dataset into features (X) and target variable (y).
     Split the data into training (80%) and testing (20%) sets.
 
