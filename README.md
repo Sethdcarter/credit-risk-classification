@@ -19,32 +19,32 @@ The objective of this analysis was to predict loan status, specifically whether 
 
 Tried to predict the creditworthiness of borrowers by looking at default rates.
 
-Stages of the Machine Learning Process
+##Stages of the Machine Learning Process
 
-Data Loading & Exploration
+*Data Loading & Exploration
     Imported the dataset from a CSV file.
     Reviewed the dataset’s structure and identified key financial variables.
 
-Data Preprocessing
+*Data Preprocessing
     Separated the dataset into features (X) and target variable (y).
     Split the data into training (80%) and testing (20%) sets.
 
-Model Selection & Training
+*Model Selection & Training
     Selected Logistic Regression as the classification model.
     Trained the model using the training data.
 
-Model Evaluation
+*Model Evaluation
     Generated predictions using the test dataset.
     Evaluated model performance using a confusion matrix and classification report.
 
-Interpretation of Results
+*Interpretation of Results
     Analyzed precision, recall, and accuracy scores.
     Noted the dataset's imbalance and assessed the model’s effectiveness in predicting loan defaults.
 
-Final Recommendation
+*Final Recommendation
     Summarized model performance and provided a recommendation for its use in loan risk assessment.
 
-Methods Used
+##Methods Used
     Logistic Regression (LogisticRegression from sklearn): Chosen for its effectiveness in binary classification problems like predicting loan defaults.
     Train-Test Split (train_test_split from sklearn): Used to divide the dataset into training and testing sets to evaluate model performance.
     Confusion Matrix (confusion_matrix from sklearn): Applied to assess the true positives, true negatives, false positives, and false negatives.
